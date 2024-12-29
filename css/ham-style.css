@@ -1,0 +1,633 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-trang-70{ background-color: rgba(255,255,255,0.5)}
+#hero
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("../images/bg-chan-hero.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 100%
+	
+}
+.wel
+{
+	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png"), url("../images/bg-banh.png");
+	background-repeat: no-repeat, no-repeat,  no-repeat;
+	background-position: left center, 90% center, center top;
+	
+}
+@media (max-width:900px){
+	.wel
+{
+
+	background-position: left center, right center, center top;
+	background-size: 20%, 50%;
+	background-color: rgba(255,255,255,0.5)
+	
+}
+}
+@media (max-width:1200px){
+	.wel
+{
+/*	background-image: url("../images/bg-welcome.png"), url("../images/a-xinchao.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;*/
+	background-size: 20%, 50%
+	
+}
+}
+#carouselExampleIndicators1{ overflow: hidden; width: 100%}
+#combo .card
+{ 
+	transition:all 1s;
+	background-color: var(--white);
+	
+}
+#combo .card h2{ color: var(--secondary)}
+#combo .card:hover
+{
+	background-color: var(--secondary);
+	color: #fff
+}
+#combo .card:hover >h3,
+#combo .card:hover >h2
+{ color: #fff}
+
+.thanhphan
+{
+	background-image: url("../images/thanhphan.png"),url("../images/ingredient_bg-1 1.png");
+	min-height: 1000px;
+	background-position: left top;
+	background-position: center 65%, left top;
+	background-repeat: no-repeat
+	
+}
+
+.tphan1 h1, .tphan h3
+{
+	color: #fff
+}
+
+@media (max-width: 1000px)
+{
+	.tphan
+	{
+		background-size: center 35%,left top
+	}
+}
+
+@media (max-width: 600px)
+{
+	.tphan
+	{
+		background-size: 80%,cover;
+		background-position: 300% 
+	}
+}
+
+
+.menu_badge
+{ padding: 5px 15px;
+	margin-left: 0;
+}
+
+.td-mon {
+	position: relative;
+	color: #333;
+} 
+
+.td-mon:after { content: ""; 
+	position: absolute;
+	
+	height: 5px;
+	left: 101%;
+	top: 60%;
+	border-top: 2px dotted rgba(0, 0, 0, 0.5);
+	overflow: hidden; }
+
+
+
+.menu-container { width: 80%; max-width: 1200px; display: flex; flex-wrap: wrap; gap: 20px; } .menu-item { border: 0px solid #ddd; padding: 10px; text-align: center; box-sizing: border-box; } .menu-item.big { flex: 1 1 48%; } .menu-item.small { flex: 1 1 30%; } .menu-item img { width: 100%; height: auto;}
+
+
+.left-label { float: left; margin-right: 10px; padding: 5px }
+
+
+
+ .container { max-width: 1200px; } .text-left, .text-right { padding: 20px; } .shipper { width: 100px; /* Kích thước nhỏ cho hình shipper */ height: auto; } .burger-right { width: 200px; /* Kích thước cho hình burger */ height: auto; margin-top: 20px; } button { margin-top: 10px; padding: 10px 20px; border: none; background-color: #dc3545; /* Màu đỏ cho nút */ color: white; cursor: pointer; border-radius: 5px; } button:hover { background-color: #c82333; }
+
+
+.deli {
+	width: 100%;
+	 height: 70vh;
+	background-image: url(" ../images/delivery_bg 1.png");background-size: cover;background-position: center; background-repeat: no-repeat; margin: 20px 0;padding: 20px;  }
+
+.btn-danger { background-color: #dc3545; color: white; border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; } .btn-danger:hover { background-color: #c82333; } .rounded-btn { border-radius: 20px; padding: 10px 20px; /* Đệm cho nút */ } .fa-shopping-cart, .fa-plus { margin-right: 8px; }
+
+
+
+.review { border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 10px; display: flex; align-items: center; } .review img { max-width: 30%; height: auto; border-radius: 10px; margin-right: 20px; } .review .text { max-width: 70%; } .review h1 { color: #e74c3c; } .review p { font-size: 16px; line-height: 1.6; } .review .author { font-weight: bold; font-size: 18px; } .review .rating { color: #f39c12; font-size: 24px
+}
+
+.cuoi
+{
+	background: url( "../images/FOOTER.png");
+	min-height: 1000px;
+	background-position: left top;
+	background-position: center 65%, left top;
+	background-repeat: no-repeat
+}
+.row { width: 100%; max-width: 1200px; } .column, .middle { padding: 0 10px; } .column { flex: 0 0 16.66%; /* 2/12 */ max-width: 16.66%; } .middle { flex: 0 0 33.33%; /* 4/12 */ max-width: 33.33%; padding: 0 20px; border: 2px solid #ccc; text-align: center; } .column img { width: 100%; height: auto; } .button { background-color: red; color: white; padding: 10px 20px; text-align: center; display: inline-block; border-radius: 5px; text-decoration: none; margin-top: 10px; } .button:hover { background-color: darkred;}
+
+.review { border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 10px; display: flex; align-items: flex-start; } .review img { width: 30%; height: auto; border-radius: 10px; margin-right: 20px; object-fit: cover; } .review .text { width: 70%; } .review h1 { color: #e74c3c; } .review p { font-size: 16px; line-height: 1.6; } .review .author { font-weight: bold; font-size: 18px; border-bottom: 2px solid red; display: inline-block; margin-top: 10px; } .review .rating { color: #f39c12; font-size: 24px; } .text-right { text-align: right; } .small-img { width: 50px; height: 50px; margin-left: 10px; vertical-align: middle; border-radius: 5px; }
+
+
+
+    
+      
+.cuahang {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 75%; 
+    padding: 20px;
+}
+
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.category-section, .product-section, .search-section {
+    margin-bottom: 20px;
+}
+
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #AD2C2C;
+    padding-bottom: 5px;
+}
+
+
+.category {
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.small-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Hình ảnh trong sản phẩm nhỏ */
+.small-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Tên sản phẩm và thông tin chi tiết */
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tên sản phẩm */
+.name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Đánh giá sao */
+.stars {
+    font-size: 14px;
+    color: gold;
+    margin-bottom: 5px;
+}
+
+/* Giá sản phẩm */
+.price {
+    font-size: 14px;
+    color: #494646;
+}
+
+/* Các từ khóa nổi bật */
+.search-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-tags .tag {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-tags .tag:hover {
+    background-color: #ffcc00;
+}
+
+/* Responsive Design: Điều chỉnh cho màn hình nhỏ */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+   
+
+
+.page-number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.category-section, .product-section, .search-section {
+    margin-bottom: 20px;
+}
+
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+
+.category {
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #f0f0f0;
+}
+
+
+.small-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.small-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.stars {
+    font-size: 14px;
+    color: gold;
+    margin-bottom: 5px;
+}
+
+
+.price {
+    font-size: 14px;
+    color: green;
+}
+
+
+.search-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-tags .tag {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.search-tags .tag:hover {
+    background-color: #ffcc00;
+}
+
+
+	
+
+.column {
+    padding: 20px;
+}
+
+
+.contact-info {
+    color: red;
+}
+
+.contact-info .icon {
+    font-size: 36px;
+    color: red; 
+}
+
+	
+.contact-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.contact-details {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-phone {
+    font-weight: bold;
+}
+
+.contact-email {
+    color: red;
+    text-decoration: none;
+}
+
+
+.address-info .icon {
+    font-size: 36px;
+    color: red; 
+}
+
+.address-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.address-info p {
+    font-size: 1.1em;
+}
+
+
+.hours-info .hours-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.hours-info p {
+    font-size: 1.1em;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+	
+	
+	
+	
+.empty-cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fff3cd; 
+    padding: 20px;
+}
+
+
+.empty-cart-message {
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+.empty-cart-message i {
+    color: #d9534f;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.empty-cart-message h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.back-to-shop-btn {
+    background-color: #d9534f; 
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-shop-btn:hover {
+    background-color: #c9302c; 
+    color: white;
+}
+
+
+.back-to-shop-btn i {
+    margin-left: 10px;
+}
+
+	
+	#menu1
+{
+ padding-top: 80px;
+ padding-bottom: 80px;
+ background-image: url( "../images/welcome_grunge_shape-min 1.png");
+ background-repeat: no-repeat;
+ background-position: left bottom;
+ 
+ 
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    justify-items: center;
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 10px; 
+    padding: 50px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+
+.member-image img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-info {
+    margin-left: 20px;
+    color: #333; 
+}
+
+.member-info h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.member-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .team-container {
+        grid-template-columns: 1fr; 
+    }
+}
+	
+	
+	.about1
+{
+	background-image: url( "../images/feature_bg 1.png"),url("../images/menu_pattern3-min 2.png"),url("../images/menu_pattern3-min 2.png") ;
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: center, bottom,top,bottom;
+	background-size: 60% ,100%,90%,100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+	
+	
+
